@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/1f7f35373f.js"
+   crossorigin="anonymous"></script>
+  
+
+
+  <title> personal portfolio</title>
+</head>
+<body>
+  <div id="header">
+     <div class="container">
+       <nav> 
+        <img src="images/logo.png" class="logo">
+        <ul>
+          <li> <a href="#">Home</a></li>
+          <li>  <a href="#">About</a> </li>
+          <li> <a href="#">Services</a></li>
+          <li> <a href="#">portfolio</a></li>
+          <li> <a href="#">Contact</a></li>
+        </ul>
+
+  </nav>
+
+  <div class="header-text">
+    <p> Full-Stack Web Developer</p>
+    <h1>Hi, i'm <span>Nour</span>  <br> Kahouach From Tunisia</h1>
+
+  </div>
+</div>
+ </div>
+ <!-----------------about----------------->
+ <div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img style="width: 300px;" src="images/IMG_20220926_111413.jpg" >
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title"> About Me</h1>
+        <p>
+          My name is Nour Kahouach, I am 23 years old and I recently started learning web development. 
+          Initially, I studied fundamental English at ISEAHG. It was always a pleasure for me to read all types of literature. 
+          Besides reading the books I love and discovering new ones, I was also able to study linguistics and The various sets 
+          of rules that govern how language works and the mechanisms by which it operates. 
+          Studying English was fun but as much as I loved studying it, I didn't want to pursue it neither 
+          in an academic nor a professional setting. I quickly lost interest in the theoretical aspect of it all. 
+          I wanted to learn something more practical . Hence why , I chose web development . 
+          at first it didnt seem as the right choice for me since i have no background in computer science , but i love a challenge . 
+          There's no better way than hands-on experience and that's what GOMYCODE has taught me . 
+          And this is what kept me going . I can say today that it has been one of the best decisions in my life . 
+          You don’t have to have a computer science degree to be a web developer . 
+          There are tons of resources online that can help you learn the basics . From there it’s all about practice .
+          One of my favorite ways to learn is through Youtube tutorials there's a plethora of 
+          content that you can access for free.
+        </p>
+
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+          <p class="tab-links active-link" onclick="opentab('experience')" >Experience</p>
+          <p class="tab-links active-link" onclick="opentab('Education') ">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="Skills" >
+          <ul>
+            <li><span>Full-Stack Web Developer</span><br>Web/App Development </li>
+            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+            <li><span>App development</span><br>Building Android/iOS apps</li>
+
+
+
+          </ul>
+        </div>
+        <div class="tab-contents" id="Experience">
+          <ul>
+            <li><span>2021 -  Current</span><br>Web/App Development at ET institute</li>
+            <li><span>2019 - 2021</span><br>Team Lead at starApp LLC.</li>
+            <li><span>2017 - 2019</span><br>UI/UX Design Executive at Coin Digital Ltd.</li>
+            <li><span>2016 - 2017</span><br>Internship at ekart eCommerce.</li>
+            
+          </ul>
+        </div>
+        <div class="tab-contents" id="Education">
+          <ul>
+            <li><span>2016</span><br>ET Institute</li>
+            <li><span>2016</span><br>MIT </li>
+            <li><span>2014</span><br>ISM </li>
+
+
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+
+ <!----------------Services---------------->
+
+ <div id="services">
+  <div class="container">
+    <h1 class="sub-title"> My Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2> Web Design</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ullam similique ducimus 
+          voluptates quidem eveniet maxime 
+          fugit culpa aspernatur sequi?
+        </p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-crop-simple"></i>
+        <h2> UI/UX Design </h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ullam similique ducimus 
+          voluptates quidem eveniet maxime 
+          fugit culpa aspernatur sequi?
+        </p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-brands fa-app-store"></i>
+        <h2> App Design</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ullam similique ducimus 
+          voluptates quidem eveniet maxime 
+          fugit culpa aspernatur sequi?
+        </p>
+        <a href="#">Learn more</a>
+      </div>
+
+    </div>
+  </div>
+ </div>
+<!-----------------Contact--------------->
+
+   <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-let">
+          <h1 class="sub-title">Contact Me</h1>
+          <p > <i class="fa-sharp fa-solid fa-paper-plane"></i> Contact@example.com</p>
+
+          <p #phone> <i class="fa-solid fa-phone"></i> 0123456789</p>
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i> </a>
+            <a href="#"><i class="fa-brands fa-twitter-square"></i> </a>
+            <a href="#"><i class="fa-brands fa-instagram"></i> </a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i> </a>
+          </div>
+        </div>
+        <div class="contact-right">
+          <form >
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="message"  rows="6" placeholder="Your Message"></textarea>
+            <button type="submit">submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+   </div>
+
+
+
+
+
+
+</body>
+</html>
